@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Test } from 'app2/src/interfaces/testInterface';
+import Input from './lib-components/src/components/Input';
 
 function App() {
   const arquivo: Test = {
@@ -26,6 +27,8 @@ function App() {
         >
           Learn React
         </a>
+
+        <Input />
 
       </header>
     </div>
